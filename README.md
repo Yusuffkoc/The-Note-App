@@ -1,3 +1,4 @@
+
 # The-Note-App
 
 THe Note App
@@ -5,6 +6,8 @@ It is a mobile android application that you can add on your notes and can store 
 
 There is an APK on 
 below.You can download to your phone and can use it
+
+https://user-images.githubusercontent.com/48139038/120358182-e5f61400-c30e-11eb-8eef-4b4e0b242323.mp4
 
 
 [App-APK.zip](https://github.com/Yusuffkoc/The-Note-App/files/6577654/App-APK.zip)
