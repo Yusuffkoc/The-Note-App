@@ -1,8 +1,8 @@
 
 # The-Note-App
 
-THe Note App
-It is a mobile android application that you can add on your notes and can store in your local database. This project was developed with Kotlin.
+
+It is a mobile android application that you can add your notes and can store in your local database. This project was developed with Kotlin.
 
 There is an APK on 
 below.You can download to your phone and can use it
