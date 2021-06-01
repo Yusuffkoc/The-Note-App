@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyNotesApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="LoginTitle">LOGIN</string>
+    <string name="ul_string_here"> <u> Forgot? </u></string>
+    <string name="NewUserText"><u> New User? Register Here</u></string>
+
+    <string name="LoginButton">Login</string>
+
+
+    <string name="all">All</string>
+    <string name="done">Done</string>
+    <string name="tbd">TBD</string>
+    <string name="ongoing">Ongoing</string>
+
+</resources>

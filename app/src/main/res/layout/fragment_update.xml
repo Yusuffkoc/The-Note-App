@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.updates.UpdateFragment">
+
+    <RadioGroup
+        android:id="@+id/filterRGUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:checkedButton="@id/allRB"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <RadioButton
+            android:id="@+id/doneRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/done" />
+
+        <RadioButton
+            android:id="@+id/tbdRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tbd" />
+
+        <RadioButton
+            android:id="@+id/ongoingRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ongoing" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/updateTitle_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:hint="Title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updateSubject_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:hint="Subject"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/changeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Change Image" />
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Update" />
+
+    <ImageView
+        android:id="@+id/selectedImageUpdatePage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp" />
+
+</LinearLayout>
